@@ -46,7 +46,7 @@ h1 {
 .card img {
   width: 100%;
   height: 260px;
-  object-fit: cover;
+  object-fit:cover;
   display: block;
 }
 
@@ -133,8 +133,10 @@ h1 {
 .story-gallery img {
   width: 100%;
   height: 260px;
-  object-fit: cover;
+  object-fit:contain;
+  background-color: #000000; 
   border-radius: 12px;
+
 }
 .story-gallery img:hover {
   transform: scale(1.03);
@@ -254,7 +256,8 @@ h1 {
 .character-gallery img {
   width: 100%;
   height: 260px;
-  object-fit: cover;
+  object-fit: contain;
+  background-color: #000000;
   border-radius: 12px;
 }
 .character-gallery img:hover {
